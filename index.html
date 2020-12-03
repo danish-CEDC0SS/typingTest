@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="a">
+        <div class="a1 a2">Test Your Typing Speed</div>
+    </div>
+    <div class="b">
+        <div class="a1 b2">This is typing test. Your goal is to duplicate the provided text, <b>EXACTLY</b>, in the field below. The timer starts typing, and only stops when you match this text exactly.Good luck</div>
+    </div>
+    <div class="c">
+        <div class="a1 c2" id="orignal">fly relate house expert charge interview itself because job consider knowledge colour low late hope significant understand business home where entire tonight want heavy such</div>
+    </div>
+    <textarea id="start1" onpaste="return false"></textarea>
+    <input type="button" value="Start" class="bu1" onclick="fun1()" >
+    <span id="timer">0s</span>
+    <div id="result">
+        <p class="wpm">Words Per Minute: <span id="wpm1"></span></p>
+        <p class="wpm">No. of Chracters: <span id="ch"></span></p>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
