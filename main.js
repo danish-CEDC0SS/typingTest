@@ -38,7 +38,7 @@ function fun3(){
     let minute=a/60;
     let words=25/minute;
     words=Math.ceil(words);
-    document.getElementById("wpm1").innerHTML=words+"words";
+    document.getElementById("wpm1").innerHTML=words+" Words";
     document.getElementById("ch").innerHTML="174";
 
 }
