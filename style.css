@@ -1,26 +1,30 @@
-.a{
+.a {
     background-color: black;
     position: relative;
     padding-top: 41px;
     padding-bottom: 41px;
     width: 100%;
 }
-.a1{
-     text-align: center;
+
+.a1 {
+    text-align: center;
 }
-.a2{
+
+.a2 {
     color: white;
     font-family: 'poppins', sans-serif;
     font-weight: 600;
     font-size: 34px;
 }
-.b{
-    background-color:rgb(5, 126, 106);
+
+.b {
+    background-color: rgb(5, 126, 106);
     position: relative;
     padding-top: 54px;
     padding-bottom: 54px;
 }
-.b2{
+
+.b2 {
     color: white;
     font-family: 'poppins', sans-serif;
     font-weight: 400;
@@ -28,13 +32,15 @@
     margin: auto;
     width: 60%
 }
-.c{
-    background-color:rgb(200,200,200) ;
+
+.c {
+    background-color: rgb(200, 200, 200);
     padding: 50px 0px;
     width: 100%;
     z-index: -5;
 }
-.c2{
+
+.c2 {
     width: 100%;
     color: black;
     font-family: 'poppins', sans-serif;
@@ -43,7 +49,8 @@
     opacity: 0.5;
     z-index: -1;
 }
-#start1{
+
+#start1 {
     padding-bottom: 164px;
     width: 99.5%;
     color: black;
@@ -53,44 +60,43 @@
     display: none;
     resize: none;
 }
-.bu1{
-    padding: 13.66px;
-    margin-top: 13.66px;
+
+.bu1 {
+    padding: 13.66px; 
+    /* margin-top: 13.66px; */
     cursor: pointer;
-    display: block;
-    margin: auto;
-    margin-top: 5px;
+    /* display: block;
+    margin: auto; */
+    margin-top: 15px;
 }
-#timer{
-    margin-left: 27.32px;
+
+#timer {
     font-size: 27.32px;
     font-weight: 500;
-    margin-top: 41px;
-    padding: 68.3px;
-    display: none;
+    margin-top: 15px;
+    /* padding: 68.3px;  */
 }
-#result{
+
+#result {
     display: none;
     text-align: center;
 }
-.wpm{
+
+.wpm {
     font-weight: 700;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* consider knowledge colour low late hope significant understand business home where entire tonight want heavy such sell way employee by civil hold executive become station successful enough task exactly*/
-
-
-
-/*fly relate house expert charge interview itself because job consider knowledge color low late hope significant understand business home where entire tonight want heavy such sell way employee by civil hold executive become station successful enough task exactly reflect about fear let perform term always industry spend feeling play federal performance season major buy ability evidence treat wall true like project return popular whether inside especially say size fast really activity final use strategy maintain see add explain conference school line almost economy rise various claim range imagine their central watch art right century scientist thought radio rule call administration 100words*/
+#wpm1, #ch, #timeT{
+    font-weight: 800;
+    color: crimson;
+    font-size: 110%;
+}
+.asd{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px;
+}
+#timer2 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 15px;
+}
