@@ -1,4 +1,4 @@
-var me = 10; var a = 0; var z = ""; var f1 = 0; var index = 0;
+var me = 10; var a = 0; var z = ""; var f1 = 0; var index = 0; var ee=0;
 
 var ran = ["fly relate house expert charge interview itself because job consider knowledge colour low late hope significant understand business tonight", "sell way employee by civil hold executive become station successful enough task exactly reflect about", "fear let perform term always industry spend feeling play federal performance season major buy ability evidence treat wall true like", "project return popular whether inside especially say size fast really activity final use strategy maintain see add", "watch art right century scientist thought radio rule call administration explain conference school line almost economy rise various", "apart from counting words and characters our online editor can help you to improve word", "choice and writing style, and, optionally, help you to detect grammar mistakes and plagiarism bookmark"];
 
@@ -18,7 +18,7 @@ function fun2() {
     var sub2 = str2.substring(0, len);
     console.log(sub1, sub2, 'edf');
     if (sub1 != sub2) {
-        y.style.color = "red";
+        y.style.color = "red";ee++;
     }
     else {
         y.style.color = "black";
@@ -74,7 +74,9 @@ function fun3() {
     words = Math.round(words);
     document.getElementById("wpm1").innerHTML = words;
     document.getElementById("ch").innerHTML = characters;
-    // document.getElementById("timeT").innerHTML = a + "s";
+    var ac=100-(ee/characters*100);
+    ac=ac.toFixed(2);
+    document.getElementById("acc").innerHTML = ac + "%";
 }
 
 
