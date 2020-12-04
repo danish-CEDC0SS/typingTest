@@ -84,3 +84,8 @@ function fun3() {
 
 var target = document.getElementById("start1");
 target.addEventListener('keyup', fun2);
+
+
+$(document).ready(function(){ 
+    $("textarea").attr("autocomplete", "off");
+}); 
