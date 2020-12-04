@@ -74,7 +74,8 @@ function fun3() {
     words = Math.round(words);
     document.getElementById("wpm1").innerHTML = words;
     document.getElementById("ch").innerHTML = characters;
-    var ac=100-(ee/characters*100);
+    var ac=100-(ee/characters*100);ee=0;
+    console.log(ac);
     ac=ac.toFixed(2);
     document.getElementById("acc").innerHTML = ac + "%";
 }
