@@ -71,7 +71,7 @@ function fun3() {
     }
     let minute = a / 60;
     let words = (spaces + 1) / minute;
-    words = Math.ceil(words);
+    words = Math.round(words);
     document.getElementById("wpm1").innerHTML = words;
     document.getElementById("ch").innerHTML = characters;
     // document.getElementById("timeT").innerHTML = a + "s";
