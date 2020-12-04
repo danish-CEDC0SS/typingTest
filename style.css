@@ -93,7 +93,14 @@
 .asd{
     display: flex;
     justify-content: space-between;
-    margin: 0px 100px;
+    margin: 0px 15px;
+}
+@media screen and (min-width: 992px){
+    .asd{
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 100px;
+    }
 }
 #timer2 {
     font-size: 20px;
